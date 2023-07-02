@@ -1,21 +1,3 @@
-# def S(n):
-#     if n == 0 or n == 1:
-#         return 1
-#     if n > 1:
-#         return 2 * S(n-1) - S(n-2)
-#
-# wynik = S(5)
-# print(f'N-ty wyraz ciągu: {wynik}')
-
-# def S(n):
-#     if n == 0 or n == 1:
-#         return 1
-#     if n > 1:
-#         return 2 * S(n-1) - S(n-2)
-#
-# wynik = S(5)
-# print(f'N-ty wyraz ciągu: {wynik}')
-
 def nty(n):
     if n == 0: return 1
     elif n == 1: return 1
