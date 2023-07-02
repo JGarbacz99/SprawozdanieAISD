@@ -38,7 +38,6 @@ for b in B:
             merged.append(right[right_index])
             right_index += 1
 
-    # Add the remaining elements from the left and right halves
     merged.extend(left[left_index:])
     merged.extend(right[right_index:])
 
