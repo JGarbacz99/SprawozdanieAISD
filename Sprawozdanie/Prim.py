@@ -20,7 +20,7 @@ while True:
     i=u
     for j in range(n):
         w=G[i][j]
-        if w==0:  continue #iteracje bez połączeń są pomijane
+        if w==0:  continue
         v=j
         if visited[v]==False:
             Q.append((u,v,w))
